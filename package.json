@@ -1,0 +1,17 @@
+{
+  "name": "@mmahrous/di",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.com:citymate/components/di.git"
+  },
+  "author": "M.Mahrous <m.mahrous@citymate.io>",
+  "license": "ISC",
+  "dependencies": {
+  }
+}
