@@ -1,6 +1,6 @@
 {
   "name": "@mmahrous/di",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -13,5 +13,6 @@
   "author": "M.Mahrous <m.mahrous@citymate.io>",
   "license": "ISC",
   "dependencies": {
+    "fn-args": "^5.0.0"
   }
 }
