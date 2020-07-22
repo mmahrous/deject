@@ -16,7 +16,7 @@
     "factory"
   ],
   "author": "M.Mahrous <m.mahrous.94@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "fn-args": "5.0.0"
   }
