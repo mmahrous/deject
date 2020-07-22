@@ -1,28 +1,25 @@
-# Dependancy Injection
-
+# Dependency Injection
+This is a simple package for dependency injection.
 
 ### Usage 
-This DI needs a configuration as 
+```JS
+const config = require('./config')
+const DI = require('di')(config)
+DI.register('port', port)
+DI.register('name', name)
+DI.get('server')
 ```
-{
-    factories: {
-        Messenger: {
-            ref: opts => new Messages(opts),
-            params: { token: process.env.FB_TOKEN, verify_token: process.env.FB_VERIFY_TOKEN }
-        },
+### Configuration
+This DI needs a configuration as config.js file 
+```JSON
+module.exports = {
+    factory: {
         ...
-        Brain: {
-            ref: opts => new Brain(opts),
-            inject: ['NLU', 'User', 'Messenger']
-        },
-        SubscribeController: {
-            ref: () => subscribe
-        }
     },
-    const: {
-        service_url: '',
-        port: process.env.PORT || 3000
+    register: {
+        ...
     }
 }
 ```
-
+# License
+This project is licensed under the MIT license. See the LICENSE file for more info.

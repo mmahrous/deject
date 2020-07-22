@@ -1,7 +1,7 @@
 {
-  "name": "@mmahrous/di",
+  "name": "deject",
   "version": "0.2.1",
-  "description": "",
+  "description": "A simple dependency injector.",
   "main": "index.js",
   "scripts": {
     "test": "NODE_ENV=test mocha tests"
@@ -10,9 +10,9 @@
     "type": "git",
     "url": "git@gitlab.com:citymate/components/di.git"
   },
-  "author": "M.Mahrous <m.mahrous@citymate.io>",
+  "author": "M.Mahrous <m.mahrous.94@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "fn-args": "^5.0.0"
+    "fn-args": "5.0.0"
   }
 }

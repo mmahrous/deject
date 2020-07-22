@@ -30,7 +30,9 @@ class DIContainer {
     register(name, dep) {
         this.dependencies[name] = dep
     }
-
+    /*
+        Get factory ot register
+    */
     get(name) {
         // check if dependency is not resolved and still in factory
         if (!this.dependencies[name]) {
