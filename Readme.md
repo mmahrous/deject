@@ -4,14 +4,14 @@ This is a simple package for dependency injection.
 ### Usage 
 ```JS
 const config = require('./config')
-const DI = require('di')(config)
+const DI = require('deject')(config)
 DI.register('port', port)
 DI.register('name', name)
 DI.get('server')
 ```
 ### Configuration
 This DI needs a configuration as config.js file 
-```JSON
+```JS
 module.exports = {
     factory: {
         ...

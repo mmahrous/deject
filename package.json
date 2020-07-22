@@ -8,8 +8,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@gitlab.com:citymate/components/di.git"
+    "url": "https://github.com/mmahrous/deject.git"
   },
+  "keywords": [
+    "dependency",
+    "injection",
+    "factory"
+  ],
   "author": "M.Mahrous <m.mahrous.94@gmail.com>",
   "license": "ISC",
   "dependencies": {
